@@ -25,6 +25,7 @@ const ViewListRepos = () => {
   if (error) {
     return (
       <div className='mt-32'>
+        <h1 className='text-xl text-center mb-10'>An error occured!!!</h1>
         <Empty />
       </div>
     )
